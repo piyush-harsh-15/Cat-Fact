@@ -1,0 +1,17 @@
+{
+    "name": "Cat Facts",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Extension for Fun Cat Facts",
+
+    "browser_action":{
+        "default_popup": "popup.html",
+        "default_icon": "cat.png"
+    },
+
+    "icons":{
+        "128": "cat.png"
+    },
+
+    "permissions": ["activeTab"]
+}
